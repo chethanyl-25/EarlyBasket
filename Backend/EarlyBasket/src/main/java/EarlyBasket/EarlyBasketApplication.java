@@ -9,5 +9,4 @@ public class EarlyBasketApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EarlyBasketApplication.class, args);
 	}
-
 }

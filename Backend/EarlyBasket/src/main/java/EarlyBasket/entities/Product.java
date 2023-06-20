@@ -16,4 +16,7 @@ public class Product {
     private Long id;
     @Column
     private String Name;
+
+    @Column(columnDefinition = "varChar(500)")
+    private String description;
 }
